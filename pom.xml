@@ -29,7 +29,7 @@
 					<username>${username}</username>
 					<password>${password}</password>
 					<environment>Sandbox</environment>
-					<application>target/</application>
+					<application>target/americanflights-api-1.0.0-SNAPSHOT.zip</application>
 				</configuration>
 				<executions>
 					<execution>
