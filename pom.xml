@@ -29,6 +29,7 @@
 					<username>${username}</username>
 					<password>${password}</password>
 					<environment>Sandbox</environment>
+					<application>target/</application>
 				</configuration>
 				<executions>
 					<execution>
@@ -165,6 +166,12 @@
 			<id>mulesoft-releases</id>
 			<name>MuleSoft Releases Repository</name>
 			<url>http://repository.mulesoft.org/releases/</url>
+			<layout>default</layout>
+		</repository>
+			<repository>
+			<id>temp-releases</id>
+			<name>MuleSoft Releases Repository</name>
+			<url>https://portal.zystems.net/maven</url>
 			<layout>default</layout>
 		</repository>
 	</repositories>
